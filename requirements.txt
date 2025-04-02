@@ -1,5 +1,7 @@
 fastjsonschema==2.20.0
 json5==0.9.25
+matplotlib==3.9.2
+matplotlib-inline==0.1.7
 networkx==3.4.2
 nibabel==5.2.1
 numpy==1.26.4
