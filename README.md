@@ -2,7 +2,7 @@
 Machine Learning for Medical Image Processing project
 
 ## Introduction
-Coronary artery disease (CAD) is a leading cause of mortality worldwide, necessitating accurate and efficient diagnostic tools. Coronary computed tomography angiography (CCTA) has become apivotal non-invasive imaging modality for visualizing coronary artery anatomy and assessing luminalstenosis. However, manual segmentation of coronary arteries from CTA images is labor-intensive, timeconsuming, and subject to inter-observer variability, underscoring the need for automated approaches.
+Coronary artery disease (CAD) is a leading cause of mortality worldwide, necessitating accurate and efficient diagnostic tools. Coronary computed tomography angiography (CCTA) has become a pivotal non-invasive imaging modality for visualizing coronary artery anatomy and assessing luminal stenosis. However, manual segmentation of coronary arteries from CTA images is labor-intensive, time-consuming, and subject to inter-observer variability, underscoring the need for automated approaches.
 
 ## Objectives
 The goals of this project are to develop a method to produce a segmentation mask for the coronary arteries from 3D CTA images and extract a graph from the CTA image to represent the structure of the coronary tree. This repository presents the method I implemented to solve the second task.
