@@ -22,14 +22,17 @@ The goals of this project are to develop a method to produce a segmentation mask
 ## Installation and execution
 ### Instructions
 1. Clone this repository:
+   
    ```bash
    git clone https://github.com/mhobbah/ML4MIP.git
    ```
 2. Install depedencies:
+   
    ```bash
    pip install -r requirements.txt
    ```
 3. Execute main script:
+   
    ```bash
    python3 graph_construction.py --image_folder /path/to/your/image/folder --label_folder /path/to/your/label/folder --graph_folder /path/to/your/graph/folder
    ```
