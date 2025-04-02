@@ -9,8 +9,6 @@ The goals of this project are to develop a method to produce a segmentation mask
 
 ## Files
 - **`graph_construction.py`**: python script to create graphs from CTA images and their masks (labels) in nibabel.nifti1.Nifti1Image format,
-example of console execution:
-
 - **`utils.py`**: contains various functions useful across all the implementation
 - **`skeleton_to_digraph.py`**: contains the functions to compute the graph used in `graph_construction.py`
 - **`graph_construction-Notebook.ipynb`**: allows to visualize the actions of the `skeleton_to_digraph.py` functions
@@ -23,16 +21,15 @@ example of console execution:
 
 ## Installation and execution
 ### Instructions
-1. Clone this repository :
+1. Clone this repository:
    ```bash
-   git clone https://github.com/AlainTanimt/Teste_Technique.git
-   cd <nom-du-repo>
+   git clone https://github.com/mhobbah/ML4MIP.git
    ```
-2. Install depedencies :
+2. Install depedencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Exécutez le script principal :
+3. Execute main script:
    ```bash
    python3 graph_construction.py --image_folder /path/to/your/image/folder --label_folder /path/to/your/label/folder --graph_folder /path/to/your/graph/folder
    ```
