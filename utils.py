@@ -11,7 +11,7 @@ W = 19
 
 """
 this script contains a variety of utility functions with different purposes
-they are used to load the dataset, test the model, or preprocess the data for training
+they are used to load the dataset, and preprocess the data for training
 """
 
 
