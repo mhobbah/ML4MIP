@@ -11,9 +11,9 @@ warnings.filterwarnings("ignore")
 def main():
     # Add arguments
     parser = ArgumentParser()
-    parser.add_argument("--image-folder", type=Path)
-    parser.add_argument("--label-folder", type=Path)
-    parser.add_argument("--graph-folder", type=Path)
+    parser.add_argument("--image_folder", type=Path)
+    parser.add_argument("--label_folder", type=Path)
+    parser.add_argument("--graph_folder", type=Path)
     args = parser.parse_args()
     
     if not os.path.isdir(args.image_folder):
