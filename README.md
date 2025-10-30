@@ -12,7 +12,7 @@ The goals of this project are to develop a method to produce a segmentation mask
 - **`utils.py`**: contains various functions useful across all the implementation
 - **`skeleton_to_digraph.py`**: contains the functions to compute the graph used in `graph_construction.py`
 - **`graph_construction-Notebook.ipynb`**: allows to visualize the actions of the `skeleton_to_digraph.py` functions
-- **`Ostia Detector.py`**: contains the CNN model that retrieves the coronary osia
+- **`Ostia Detector.py`**: contains the CNN model that retrieves the coronary ostia
 - **`Ostia Detector-Training.ipynb`**: trains the CNN model
 - **`models`**: folder containing one trained model for every epoch
 - **`losses.npz`**: arr1=training losses and arr2=validation losses 
